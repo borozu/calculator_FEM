@@ -7,4 +7,18 @@ body {
 }
 
 .main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+}
+
+.number-button,
+.arithmetic,
+.clear,
+.back,
+.equals {
+  min-height: 50px;
+  min-width: 50px;
 }
